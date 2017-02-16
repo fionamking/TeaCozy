@@ -20,3 +20,13 @@ header {
 .mission {
 
 }
+
+.month-image {
+  height: 200px;
+  width: 300px;
+}
+
+.location-image {
+  height: 500px;
+  width: 1200px;
+}
