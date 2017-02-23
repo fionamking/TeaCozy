@@ -73,48 +73,56 @@ body {
 }
 
 /*Tea of the Month*/
-.month {
-  display: block;
+.menu {
+
   text-align: center;
   width: 1000px;
-  height: 700px;
-  margin: auto;
-  padding-top: 70px;
-
-  border: 2px solid red;
-
-}
-
- .menu {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  text-align: center;
-  justify-content: space-around;
-  padding: 5px;
-  width: 100%;
-
-border: 2px solid red;
+  height: 600px;
+  margin: 0px;
+  padding-top: 0px;
+  margin-left: 150px;
+  padding-bottom: 0px;
 
 }
 
- img {
+.tea-title {
   display: block;
-  height: 200px;
-  width: 300px;
-  margin: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0px;
+  margin: 0px;
+
+
 }
 
+ .menu-item {
+  display: inline-block;
+  width: 300px;
+  padding: 10px;
+  justify-content: center;
 
+}
 
+span {
+  font-size: 22px;
+  font-weight: bold;
+}
 
+ .image {
+
+  height: 200px;
+  width: auto;
+  margin: 10px;
+  overflow: hidden;
+
+}
 
 /*Locations*/
 
 .location-image {
   display: block;
-  margin-top: 500px;
+
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -124,6 +132,7 @@ border: 2px solid red;
   align-items: stretch;
   text-align: center;
   margin-left: 30px;
+  padding-top: 0px;
 }
 
 .location-title {
@@ -131,6 +140,8 @@ border: 2px solid red;
   align-items: center;
   justify-content: center;
   padding-top: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .address {
