@@ -9,8 +9,8 @@ body {
   font-size: 22px;
 
 }
-
-header {
+/*header*/
+#header {
   display: flex;
   position: fixed;
   border-bottom: 1px solid seashell;
@@ -24,17 +24,18 @@ header {
 
 }
 
-.logo {
+#logo {
   padding-right: 100px;
   padding-left: 10px;
 }
 
-.logo-pic {
+ #logo-pic {
   height: 50px;
   padding-left: 10px;
   align-items: center;
+  width: auto;
 }
-.nav  {
+#nav  {
   text-align: right;
   flex-grow: 1;
 
@@ -44,10 +45,11 @@ header {
   color: seashell;
   padding: 15px;
 }
- .nav .link {
+ #nav .link {
    display: inline-block;
    padding: 20px 10px;
 
+/*Mission*/
 
 }
 .mission {
@@ -61,21 +63,95 @@ header {
   text-align: center;
   justify-content: center;
   align-items: center;
+
 }
 
 .mission-text {
   background-color: black;
   width: 1200px;
+
 }
 
+/*Tea of the Month*/
+.month {
+  display: block;
+  text-align: center;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
 
+  border: 2px solid red;
 
-.month-image {
+}
+
+ .menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  padding: 5px;
+  width: 100%;
+
+border: 2px solid red;
+
+}
+
+ img {
+  display: block;
   height: 200px;
   width: 300px;
+  margin: 10px;
 }
 
+
+
+
+
+/*Locations*/
+
 .location-image {
+  display: block;
+  margin-top: 500px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
   height: 500px;
   width: 1200px;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.location-title {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.address {
+  display: inline-block;
+  background: black;
+  opacity: 1;
+  padding: 10px;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+/*Contact Details*/
+.contact {
+  align-items: center;
+  text-align: center;
+}
+
+/*Copyright*/
+.copyright {
+  margin-left: 20px;
 }
