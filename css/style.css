@@ -57,9 +57,10 @@ body {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 100px;
+
   height: 700px;
-  width: 100%;
+  max-width: 1200px;
+  margin: 100px auto 0px auto;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -68,19 +69,22 @@ body {
 
 .mission-text {
   background-color: black;
-  width: 1200px;
+  width: 100%;
 
 }
 
 /*Tea of the Month*/
 .menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
   text-align: center;
-  width: 1000px;
+
   height: 600px;
   margin: 0px;
   padding-top: 0px;
-  margin-left: 150px;
+
   padding-bottom: 0px;
 
 }
